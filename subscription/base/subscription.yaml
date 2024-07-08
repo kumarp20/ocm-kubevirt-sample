@@ -1,0 +1,15 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  annotations:
+    apps.open-cluster-management.io/github-branch: main
+    # Customize in your overlay.
+    apps.open-cluster-management.io/github-path: PATH
+  name: subscription
+spec:
+  channel: ocm-demo-vm1/ocm-demo-vm1
+  placement:
+    placementRef:
+      kind: Placement
+      name: placement
