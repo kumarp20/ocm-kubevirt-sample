@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   labels:
     kubevirt.io/os: linux
-  name: vm2
+  name: ocm-test-vm
 spec:
   running: false
   template:
