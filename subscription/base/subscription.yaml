@@ -8,7 +8,7 @@ metadata:
     apps.open-cluster-management.io/github-path: PATH
   name: subscription
 spec:
-  channel: ocm-demo-vm1/ocm-demo-vm1
+  channel: ocm-samples/ocm-kubevirt-sample
   placement:
     placementRef:
       kind: Placement
