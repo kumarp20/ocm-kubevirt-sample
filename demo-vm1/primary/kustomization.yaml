@@ -8,7 +8,7 @@ patches:
   - patch: |
       - op: replace
         path: /spec/running
-        value: false
+        value: true
     target:
       kind: VirtualMachine
 resources:
